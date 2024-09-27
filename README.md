@@ -1,4 +1,3 @@
-##########################################
 **Problem Statement:** Edit pose of an object in a scene
 Recent advancement in generative AI has led to a development of a lot of creative workflows. One
 such workflow is to use generative AI techniques for editing product photographs after they have
