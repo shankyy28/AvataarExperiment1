@@ -1,6 +1,6 @@
 import argparse
 
-def main():
+def parse_input():
     parser = argparse.ArgumentParser(description="Process an image with a specified class and generate output.")
 
     parser.add_argument('--image', type=str, required=True, help="Path to the input image file")
@@ -13,5 +13,4 @@ def main():
     class_name = getattr(args, 'class')  # 'class' is a reserved keyword, so we use getattr
     output_image_path = args.output
 
-if __name__ == "__main__":
-    main()
+    return input_image_path, class_name, output_image_path
